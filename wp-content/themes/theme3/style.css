@@ -1,3 +1,10 @@
+/*
+Theme Name: Тема 3: Сайт компании
+Theme URI: http://team-site-wordpress/
+Description: Сайт дизайнерской компании
+Author: Андрей
+Version: 1.0
+*/
 @font-face {
     font-family: 'pt_sans';
     src: url('font/pt-sans.eot');
@@ -88,7 +95,7 @@ body{
 		border-left:none;
 	}
 		.menu li a{
-			color:#fff; padding:0; display:block; padding:13px 17px; border-bottom:4px solid #35393b; border-top:1px solid #4a4e50; text-shadow:1px -1px 1px #000;
+			color:#fff;  display:block; padding:13px 17px; border-bottom:4px solid #35393b; border-top:1px solid #4a4e50; text-shadow:1px -1px 1px #000;
 		}
 		.menu li a:hover{
 			 border-bottom:4px solid #d29624; text-decoration:none; border-top:1px solid #4b4e51;
@@ -212,6 +219,13 @@ body{
 	.ftrmenu{
 		float:right;
 	}
+	.ftrmenu ul li{
+		display: inline;
+		border-right: 1px solid #ccc;
+	}
+.ftrmenu ul li:last-child{
+	border: none;
+}
 		.ftrmenu a{
 			 color:#707070; margin:0 10px;
 		}
